@@ -59,6 +59,14 @@
       "mode": "no-view"
     },
     {
+      "name": "settings",
+      "title": "Open DankMaterialShell Settings",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms", "settings"],
+      "description": "Open the settings menu.",
+      "mode": "no-view"
+    },
+    {
       "name": "restart",
       "title": "Restart",
       "subtitle": "DankMaterialShell",
