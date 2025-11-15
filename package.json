@@ -1,0 +1,84 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "dank-material-shell",
+  "title": "DankMaterialShell",
+  "description": "Control DankMaterialShell from Vicinae.",
+  "categories": [],
+  "license": "MIT",
+  "author": "sagebind",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "danklogo.svg",
+  "commands": [
+    {
+      "name": "toggle-inhibit",
+      "title": "Toggle Idle Inhibitor",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Toggle idle inhibitor.",
+      "mode": "no-view"
+    },
+    {
+      "name": "toggle-top-bar",
+      "title": "Toggle Top Bar",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Toggle top bar visibility.",
+      "mode": "no-view"
+    },
+    {
+      "name": "change-wallpaper",
+      "title": "Change Wallpaper",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Open the file browser to change the wallpaper.",
+      "mode": "no-view"
+    },
+    {
+      "name": "theme-dark-mode",
+      "title": "Theme: Dark Mode",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Enable dark mode.",
+      "mode": "no-view"
+    },
+    {
+      "name": "theme-light-mode",
+      "title": "Theme: Light Mode",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Enable light mode.",
+      "mode": "no-view"
+    },
+    {
+      "name": "theme-toggle",
+      "title": "Theme: Toggle",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Toggle between light and dark mode.",
+      "mode": "no-view"
+    },
+    {
+      "name": "restart",
+      "title": "Restart",
+      "subtitle": "DankMaterialShell",
+      "keywords": ["dms"],
+      "description": "Restart DankMaterialShell.",
+      "mode": "no-view"
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "format": "biome format --write src",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.16.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@biomejs/biome": "2.3.2"
+  }
+}
