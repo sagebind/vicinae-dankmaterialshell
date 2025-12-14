@@ -67,6 +67,13 @@
       "mode": "no-view"
     },
     {
+      "name": "pick-color",
+      "title": "Pick Color",
+      "keywords": ["dms", "color", "picker"],
+      "description": "Pick a color from the screen.",
+      "mode": "no-view"
+    },
+    {
       "name": "restart",
       "title": "Restart",
       "subtitle": "DankMaterialShell",
