@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
-  "name": "dank-material-shell",
+  "name": "dankmaterialshell",
   "title": "DankMaterialShell",
   "description": "Control DankMaterialShell from Vicinae.",
   "categories": [],
